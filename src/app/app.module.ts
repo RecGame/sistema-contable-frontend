@@ -3,16 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule} from '@angular/common/http';
+
+import { EntrarComponent } from './componentes/entrar/entrar.component';
+import { AgregarClienteComponent } from './componentes/agregar-cliente/agregar-cliente.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EntrarComponent,
+    AgregarClienteComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
