@@ -10,18 +10,28 @@ import {HttpClient} from '@angular/common/http'
 export class EntrarComponent implements OnInit {
   formularioEntrar: FormGroup;
 
-  constructor(private http: HttpClient,private formBuilder: FormBuilder) {
-    this.formularioEntrar = this.formBuilder.group({
+  constructor(private http: HttpClient,private formBuilder: FormBuilder) 
+  {
+    this.formularioEntrar = this.formBuilder.group(
+    {
       usuario: ['', [Validators.required,Validators.minLength(1), Validators.email]],
       contrasena: ['', Validators.required]
     });
    }
 
-  ngOnInit(){
+  ngOnInit()
+  {
+    
+  }
+
+  entrar(formulario)
+  {
+    console.log(formulario.value.usuario);
+    console.log(formulario.value.contrasena);
     this.http.post<any>('http://localhost:80/sistema-contable/api.php/entrar', 
     {
-       usuario: 'Jahaziel',
-       contrasena: '123457'   
+       usuario: formulario.value.usuario,
+       contrasena: formulario.value.contrasena  
     }).subscribe(data => {
         if(data != "Informacion incorrecta")
         {
@@ -33,12 +43,6 @@ export class EntrarComponent implements OnInit {
           alert(data);
         }
     })
-  }
-
-  entrar(angForm1)
-  {
-    console.log(angForm1.value.usuario);
-    console.log(angForm1.value.contrasena);
   }
 
 }
