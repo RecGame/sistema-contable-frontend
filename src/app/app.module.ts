@@ -8,12 +8,14 @@ import { HttpClientModule} from '@angular/common/http';
 
 import { EntrarComponent } from './componentes/entrar/entrar.component';
 import { AgregarClienteComponent } from './componentes/agregar-cliente/agregar-cliente.component';
+import { PrincipalComponent } from './componentes/principal/principal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EntrarComponent,
-    AgregarClienteComponent
+    AgregarClienteComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,
