@@ -1,0 +1,54 @@
+[33mcommit 7fc25be659a9f20541675ad94719a34ae85bac56[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Jhzeg96 <jhzeg96@gmail.com>
+Date:   Sat Jan 30 12:19:50 2021 -0600
+
+    Se arreglo el problema en el componente entrar.ts
+
+[33mcommit 28208f0d0d81122152b06a714d518093314b4079[m
+Merge: b41f9a8 e287004
+Author: RecGame <morenob2525@gmail.com>
+Date:   Fri Jan 29 17:59:47 2021 -0600
+
+    ???
+
+[33mcommit b41f9a81874a26e4de18e7713c2b84f194266b2f[m
+Author: RecGame <morenob2525@gmail.com>
+Date:   Fri Jan 29 17:52:01 2021 -0600
+
+    Ananido el login, y diseño pagina principal
+
+[33mcommit e2870043c05c1466df6dbac73148d8a5bbeab196[m
+Author: Jhzeg96 <jhzeg96@gmail.com>
+Date:   Thu Jan 28 15:58:47 2021 -0600
+
+    Se envian los datos de usuario y contrasena a la api
+
+[33mcommit 560223214807daad42c66420ec268efbeeea5ec2[m
+Author: RecGame <morenob2525@gmail.com>
+Date:   Wed Jan 27 22:08:41 2021 -0600
+
+    Diseño de login
+
+[33mcommit 77c3ebbfc054a16f10aafe78de76e972d1ce5872[m
+Author: RecGame <morenob2525@gmail.com>
+Date:   Wed Jan 27 21:24:27 2021 -0600
+
+    Cambio uno de prueba
+
+[33mcommit be9c9eff43083f5a43052879780f5a1e6af64bcc[m
+Author: Jhzeg96 <jhzeg96@gmail.com>
+Date:   Wed Jan 27 17:50:36 2021 -0600
+
+    Se obtienen los valores del formulario
+
+[33mcommit 62b00bd753edfe1708501461a0ae7c4c29f56a3a[m
+Author: Jhzeg96 <jhzeg96@gmail.com>
+Date:   Wed Jan 27 15:33:48 2021 -0600
+
+    Primer commit
+
+[33mcommit b652e5f367f7efc474b457a81b42774fc4c69d46[m
+Author: Jhzeg96 <jhzeg96@gmail.com>
+Date:   Tue Jan 26 16:35:55 2021 -0600
+
+    initial commit
