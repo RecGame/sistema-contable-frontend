@@ -1,0 +1,15 @@
+#textoTitulo
+{
+    font-size: larger;
+}
+
+#textoUsuario
+{
+    font-size:smaller;
+    color: gray;
+}
+
+#cardPresentacion
+{
+    box-shadow: 2px 2px 5px #999;
+}
