@@ -1,6 +1,7 @@
 #textoTitulo
 {
     font-size: larger;
+    text-transform: uppercase;
 }
 
 #textoUsuario
@@ -13,3 +14,15 @@
 {
     box-shadow: 2px 2px 5px #999;
 }
+
+#cardFormulario
+{
+    box-shadow: 2px 2px 5px #999;
+}
+
+#titulo
+{
+    font-weight:400;
+    text-transform: uppercase;
+}
+
