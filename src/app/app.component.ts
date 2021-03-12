@@ -21,4 +21,9 @@ export class AppComponent implements OnInit {
     this.router.navigate(['principal']);
   }
 
+  navegarAgregarCliente()
+
+  {
+    this.router.navigate(['AgregarCliente']);
+  }
 }
