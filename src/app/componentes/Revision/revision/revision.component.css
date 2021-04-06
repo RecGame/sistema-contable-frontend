@@ -1,0 +1,21 @@
+
+#botonOpciones
+{
+    border-radius: 30%;
+    padding: 10px;
+}
+
+#botonOpciones:hover
+{
+   box-shadow: inset 0 0 10px 16px #dddddd;
+}
+
+#textoNombre
+{
+    color: black;
+}
+
+#textoNombre:hover
+{
+    color: red;
+}

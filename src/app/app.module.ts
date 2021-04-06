@@ -10,13 +10,15 @@ import { HttpClientModule} from '@angular/common/http';
 import { EntrarComponent } from './componentes/entrar/entrar.component';
 import { AgregarClienteComponent } from './componentes/agregar-cliente/agregar-cliente.component';
 import { PrincipalComponent } from './componentes/principal/principal.component';
+import { RevisionComponent } from './componentes/Revision/revision/revision.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EntrarComponent,
     AgregarClienteComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    RevisionComponent
   ],
   imports: [
     BrowserModule,
